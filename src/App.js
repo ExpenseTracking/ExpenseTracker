@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+const userData = {
+  totalMoney: 1000.0
+};
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,14 @@ function App() {
           Learn React
           <h3>Helloooo asdf hey</h3>
         </a>
+
+
+        Enter an amount to deposit to your account:
+        <br />
+        <label>
+          Dollar amount: <input name="addAmount" />
+        </label>
+
       </header>
     </div>
   );
